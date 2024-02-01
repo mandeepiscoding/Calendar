@@ -1,6 +1,16 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  max-width: auto;
+  margin: auto;
 }
 
 textarea {
