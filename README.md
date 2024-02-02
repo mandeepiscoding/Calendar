@@ -7,7 +7,7 @@ This is a simple calendar app designed for scheduling your 9-5 work day.
 ## Preview
 
 https://mandeepiscoding.github.io/Calendar/
-![Calendar](assets/page.png)
+![Calendar](Assets/page.png)
 
 ## Features
 
