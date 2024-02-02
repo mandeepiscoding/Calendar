@@ -1,7 +1,9 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -11,6 +13,9 @@ header {
 .container-fluid {
   max-width: auto;
   margin: auto;
+  border: 2px solid #000;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 textarea {
@@ -20,6 +25,7 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  width: 100%;
 }
 
 .description {
@@ -38,6 +44,7 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  flex: 1;
 }
 
 .past {
@@ -66,4 +73,21 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+.current-year {
+  font-weight: bold;
 }
