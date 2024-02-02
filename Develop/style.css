@@ -82,6 +82,11 @@ textarea {
   transition: all 0.3s ease-in-out; /* Smooth transiton */
 }
 
+/* Spaces out the 5pm box and the copyright */
+.spacer {
+  height: 50px;
+}
+
 /* Footer styling */
 footer {
   background-color: #333;
@@ -94,7 +99,7 @@ footer {
 
 /* Paragraph inside footer styling */
 footer p {
-  margin: 0;
+  margin: 0px;
 }
 
 /* Current year styling */
