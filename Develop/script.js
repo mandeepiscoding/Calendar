@@ -1,4 +1,6 @@
 $(document).ready(function () {
+  
+  // This updates time blocks based on what time it is
   function updateTimeBlocks() {
     var currentHour = dayjs().hour();
 
@@ -15,11 +17,13 @@ $(document).ready(function () {
     });
   }
 
+  // This function displays the current date in the header
   function displayCurrentDate() {
     var currentDate = dayjs().format("MMMM D, YYYY");
     $("#currentDay").text(currentDate);
   }
 
+  // This saves and loads in any input from local storage
   function loadSavedInput() {
     $(".time-block").each(function () {
       var blockId = $(this).attr("id");
@@ -31,10 +35,12 @@ $(document).ready(function () {
     });
   }
 
+  // Initial setup
   updateTimeBlocks();
   displayCurrentDate();
   loadSavedInput();
 
+  // This is an event for when you click on Save button
   $(".saveBtn").on("click", function () {
     var blockId = $(this).closest(".time-block").attr("id");
     var userInput = $(this).siblings(".description").val();

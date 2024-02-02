@@ -1,93 +1,103 @@
+/* General styling */
 body {
   font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   text-align: center;
   margin: 0;
   padding: 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
 }
 
+/* Header styling */
 header {
   margin-bottom: 20px;
 }
 
+/* Main content styling */
 .container-fluid {
   max-width: auto;
   margin: auto;
-  border: 2px solid #000;
+  border: 2px solid #fff; /* White border */
   border-radius: 15px;
   overflow: hidden;
 }
 
+/* Textarea styling */
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: #000;
+  border-left: 1px solid #fff; /* White left border */
   padding: 10px;
   width: 100%;
 }
 
-.description {
-  white-space: pre-wrap;
-}
-
+/* Time block styling */
 .time-block {
   border-radius: 15px;
+  border: 1px solid #fff; /* White bordeer */
+  margin-bottom: 10px;
 }
 
+/* Row styling */
 .row {
-  border-top: 1px solid white;
+  border-top: 1px solid #fff; /* White top border */
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #000;
+  color: #fff;
+  border-top: 1px dashed #fff; /* White dashed top border */
   flex: 1;
 }
 
+/* Past time block */
 .past {
-  background-color: #d3d3d3;
-  color: white;
+  background-color: #555;
 }
 
+/* Present time block */
 .present {
   background-color: #ff6961;
-  color: white;
 }
 
+/* Future time block */
 .future {
   background-color: #77dd77;
-  color: white;
 }
-
+/* Save button styling */
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid #fff;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
-  color: white;
+  color: #fff;
 }
 
+/* Save button icon on hover styling */
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; /* Smooth transiton */
 }
 
+/* Footer styling */
 footer {
   background-color: #333;
-  color: white;
+  color: #fff;
   padding: 10px;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
+/* Paragraph inside footer styling */
 footer p {
   margin: 0;
 }
 
+/* Current year styling */
 .current-year {
   font-weight: bold;
 }
